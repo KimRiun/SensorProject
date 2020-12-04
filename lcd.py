@@ -41,9 +41,9 @@ def main():
         if data<37:
 	        lcd_string("Normal temp!", LCD_LINE_2)
         if 37<=data and data<37.5:
-			lcd_string("Slight fever!", LCD_LINE_2)
+		lcd_string("Slight fever!", LCD_LINE_2)
         if data>37.5:
-			lcd_string("High fever!!", LCD_LINE_2)
+		lcd_string("High fever!!", LCD_LINE_2)
 
 def lcd_init():
     lcd_byte(0x33,LCD_CMD)
