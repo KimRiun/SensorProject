@@ -21,7 +21,7 @@ try:
         byte_data = client.recv(1024)
         data = byte_data.decode().strip()
         print("studentID, name : ", data)
-        f = open("test.txt", 'a')
+        f = open("test.txt", 'a') #학번, 이름 저장할 txt 파일에 이어서 저장
         f.write(data + '\n')
         f.close()
         
