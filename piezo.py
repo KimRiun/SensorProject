@@ -7,7 +7,7 @@ GPIO.setmode(GPIO.BCM)
 gpio_pin=13
 scale = [261, 294, 329, 349, 392, 440, 493, 523]
 GPIO.setup(gpio_pin, GPIO.OUT)
-list = [0,0,4,4,5,5,4,3,3,2,2,1,1,0]
+list = [0,0,4,4,5,5,4,3,3,2,2,1,1,0] #작은별 멜로디
 
 data=40
 
